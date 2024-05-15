@@ -1,0 +1,28 @@
+{
+  "name": "sol_Stacks_btc_hd_wallet_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ts-node-dev --inspect=4321 --pretty --transpile-only ./src/index.ts",
+    "start": "ts-node --pretty --transpile-only ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@stacks/transactions": "^6.15.0",
+    "@stacks/wallet-sdk": "^6.15.0",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "^6.1.5",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
